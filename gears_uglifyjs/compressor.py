@@ -4,5 +4,5 @@ from gears.compressors import ExecCompressor
 
 class UglifyJSCompressor(ExecCompressor):
 
-    executable = 'node'
-    params = [os.path.join(os.path.dirname(__file__), 'compressor.js')]
+    executable = os.path.join(os.path.dirname(__file__), 'node_modules/uglify-js/bin/uglifyjs')
+    params = []

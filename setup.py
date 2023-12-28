@@ -8,7 +8,7 @@ def read(filename):
 
 setup(
     name='gears-uglifyjs',
-    version='0.1.1',
+    version='0.2',
     url='https://github.com/gears/gears-uglifyjs',
     license='ISC',
     author='Mike Yumatov',
